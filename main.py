@@ -2,7 +2,7 @@ from turtle import *
 from time import sleep
 
 t = Turtle()
-t.speed(500)
+t.speed(250)
 
 #Ucrania
 t.pu()
@@ -706,73 +706,178 @@ t.end_fill()
 sleep(2)
 t.clear()
 
-#Mauricio
+#Bahamas
 t.pu()
-t.setheading(0)
+t.seth(0)
 t.goto(-250,125)
 t.pd()
-t.color("#EA2839")
+t.color("#00778B")
 t.begin_fill()
-t.fillcolor("#EA2839")
+t.fillcolor("#00778B")
 
 for _ in range(2):
  t.fd(402)
  t.rt(90)
- t.fd(63)
+ t.fd(84)
  t.rt(90)
 t.end_fill()
 
 t.pu()
-t.goto(-250,62)
+t.goto(-250,41)
 t.pd()
-t.color("#1A206D")
+t.color("#FFC72C")
 t.begin_fill()
-t.fillcolor("#1A206D")
+t.fillcolor("#FFC72C")
 
 for _ in range(2):
  t.fd(402)
  t.rt(90)
- t.fd(63)
+ t.fd(84)
  t.rt(90)
 t.end_fill()
 
 t.pu()
-t.goto(-250,-1)
+t.goto(-250,-43)
 t.pd()
-t.color("#FFD500")
+t.color("#00778B")
 t.begin_fill()
-t.fillcolor("#FFD500")
+t.fillcolor("#00778B")
 
 for _ in range(2):
  t.fd(402)
  t.rt(90)
- t.fd(63)
+ t.fd(84)
  t.rt(90)
 t.end_fill()
 
 t.pu()
-t.goto(-250,-64)
+t.goto(-250,-127)
 t.pd()
-t.color("#00A551")
+t.color("black")
 t.begin_fill()
-t.fillcolor("#00A551")
+t.fillcolor("black")
+
+t.lt(40)
+t.fd(200)
+t.lt(101)
+t.fd(200)
+t.seth(270)
+t.fd(252)
+t.end_fill()
+sleep(2)
+t.clear()
+
+
+
+#Canadá
+t.pu()
+t.seth(0)
+t.goto(-250,125)
+t.pd()
+t.color("black")
+t.begin_fill()
+t.fillcolor("#FF0000")
 
 for _ in range(2):
- t.fd(402)
+ t.fd(100)
  t.rt(90)
- t.fd(63)
+ t.fd(252)
  t.rt(90)
 t.end_fill()
 
-#Angola
+t.pu()
+t.goto(-150,125)
+t.pd()
+t.color("black")
+t.begin_fill()
+t.fillcolor("white")
+
+for _ in range(2):
+ t.fd(202)
+ t.rt(90)
+ t.fd(252)
+ t.rt(90)
+t.end_fill()
+
+t.pu()
+t.goto(52,125)
+t.pd()
+t.color("black")
+t.begin_fill()
+t.fillcolor("#FF0000")
+
+for _ in range(2):
+ t.fd(100)
+ t.rt(90)
+ t.fd(252)
+ t.rt(90)
+t.end_fill()
 
 
+t.pu()
+t.goto(-55,-80)
+t.pd()
+t.color("#FF0000")
+t.begin_fill()
+t.fillcolor("#FF0000")
 
+t.fd(12)
+t.lt(100)
+t.fd(36)
 
+t.rt(105)
+t.fd(44)
+t.lt(120)
+t.fd(18)
+t.rt(80)
+t.fd(48)
+t.lt(120)
+t.fd(18)
+t.rt(90)
+t.fd(24)
 
+t.lt(144)
+t.fd(24)
+t.rt(100)
+t.fd(18)
+t.lt(120)
+t.fd(24)
 
+t.rt(140)
+t.fd(48)
+t.lt(130)
+t.fd(14)
+t.rt(100)
+t.fd(30)
 
+t.lt(130)
+t.fd(30)
+t.rt(120)
+t.fd(14)
+t.lt(140)
+t.fd(48)
 
+t.rt(130)
+t.fd(24)
+t.lt(110)
+t.fd(18)
+t.rt(90)
+t.fd(24)
+
+t.lt(140)
+t.fd(24)
+t.rt(90)
+t.fd(18)
+t.lt(120)
+t.fd(48)
+
+t.rt(105)
+t.fd(24)
+t.lt(145)
+t.fd(44)
+t.rt(110)
+t.fd(36)
+t.end_fill()
 
 
 mainloop()
